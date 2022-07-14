@@ -7,6 +7,7 @@ const counterStart = 1;
 // Defines the value of the interval between each number
 let counterSum = 1;
 
+// Defines the divisor and it's name. You can add as many objects as you like.
 let dividersAndNames = [
   {
     divider: 3,
