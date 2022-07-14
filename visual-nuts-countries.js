@@ -20,6 +20,14 @@ const world = [
       languages: ["es"]
     }
   ]
+
+  function countryCuriosities() {
+    return numberOfCountries() + '\n' 
+      + countryMostLanguagesWithGerman() + '\n' 
+      + countAllOfficialLanguages() + '\n' 
+      + largestNumberOfLanguages() + '\n' 
+      + mostCommonLanguage();
+  }
   
   function numberOfCountries() {
     return (
@@ -87,13 +95,5 @@ const world = [
     return "Most common official language(s) of all countries: " + mostFrequent;
   }
   
-  console.log(numberOfCountries());
-  
-  console.log(countryMostLanguagesWithGerman());
-  
-  console.log(countAllOfficialLanguages());
-  
-  console.log(largestNumberOfLanguages());
-  
-  console.log(mostCommonLanguage());
+  console.log(countryCuriosities());
   
